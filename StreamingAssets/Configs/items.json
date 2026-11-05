@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "spawnChancePerPlatform": 0.035,
+  "minimumFloor": 12,
+  "items": [
+    {
+      "id": "coin",
+      "spriteId": "item_coin",
+      "weight": 0.9,
+      "fromFloor": 0,
+      "toFloor": 0,
+      "coinReward": 5,
+      "liftFloors": 0,
+      "liftSpeed": 0.0
+    },
+    {
+      "id": "rocket",
+      "spriteId": "item_rocket",
+      "weight": 0.1,
+      "fromFloor": 25,
+      "toFloor": 0,
+      "coinReward": 0,
+      "liftFloors": 20,
+      "liftSpeed": 22.0
+    }
+  ]
+}

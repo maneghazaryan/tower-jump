@@ -1,0 +1,196 @@
+{
+  "schemaVersion": 2,
+  "id": "tower_00",
+  "displayName": "Stone Ascent",
+  "seed": 20260911,
+  "totalPlatformCount": 400,
+  "towerHalfWidth": 4.5,
+  "startHeight": -3.0,
+  "fullWidthInterval": 100,
+  "skinMilestoneInterval": 100,
+  "completionReward": 250,
+  "milestoneReward": 25,
+  "environment": {
+    "backgroundSpriteId": "background",
+    "wallLeftSpriteId": "wall_left",
+    "wallRightSpriteId": "wall_right"
+  },
+  "spacing": {
+    "minGap": 1.44,
+    "maxGap": 1.52,
+    "gapByHeight": [
+      {
+        "fromIndex": 1,
+        "toIndex": 100,
+        "minGap": 1.44,
+        "maxGap": 1.52
+      },
+      {
+        "fromIndex": 101,
+        "toIndex": 200,
+        "minGap": 1.44,
+        "maxGap": 1.52
+      },
+      {
+        "fromIndex": 201,
+        "toIndex": 300,
+        "minGap": 1.44,
+        "maxGap": 1.52
+      },
+      {
+        "fromIndex": 301,
+        "toIndex": 400,
+        "minGap": 1.44,
+        "maxGap": 1.52
+      }
+    ]
+  },
+  "widthByHeight": [
+    {
+      "fromIndex": 1,
+      "toIndex": 40,
+      "minWidth": 3.91,
+      "maxWidth": 5.29
+    },
+    {
+      "fromIndex": 41,
+      "toIndex": 100,
+      "minWidth": 3.22,
+      "maxWidth": 4.6
+    },
+    {
+      "fromIndex": 101,
+      "toIndex": 200,
+      "minWidth": 2.53,
+      "maxWidth": 3.68
+    },
+    {
+      "fromIndex": 201,
+      "toIndex": 300,
+      "minWidth": 2.07,
+      "maxWidth": 2.99
+    },
+    {
+      "fromIndex": 301,
+      "toIndex": 400,
+      "minWidth": 1.61,
+      "maxWidth": 2.53
+    }
+  ],
+  "spriteSetsByHeight": [
+    {
+      "fromIndex": 1,
+      "toIndex": 100,
+      "spriteSetId": "moss"
+    },
+    {
+      "fromIndex": 101,
+      "toIndex": 200,
+      "spriteSetId": "stone"
+    },
+    {
+      "fromIndex": 201,
+      "toIndex": 300,
+      "spriteSetId": "sand"
+    },
+    {
+      "fromIndex": 301,
+      "toIndex": 400,
+      "spriteSetId": "obsidian"
+    }
+  ],
+  "scrollSpeedByHeight": [
+    {
+      "fromIndex": 1,
+      "toIndex": 20,
+      "unitsPerSecond": 0.0
+    },
+    {
+      "fromIndex": 21,
+      "toIndex": 60,
+      "unitsPerSecond": 0.75
+    },
+    {
+      "fromIndex": 61,
+      "toIndex": 120,
+      "unitsPerSecond": 1.25
+    },
+    {
+      "fromIndex": 121,
+      "toIndex": 200,
+      "unitsPerSecond": 1.88
+    },
+    {
+      "fromIndex": 201,
+      "toIndex": 300,
+      "unitsPerSecond": 2.5
+    },
+    {
+      "fromIndex": 301,
+      "toIndex": 400,
+      "unitsPerSecond": 3.0
+    }
+  ],
+  "platformTypesByHeight": [
+    {
+      "fromIndex": 1,
+      "toIndex": 25,
+      "weights": [
+        {
+          "typeId": "normal",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "fromIndex": 26,
+      "toIndex": 100,
+      "weights": [
+        {
+          "typeId": "normal",
+          "weight": 0.92
+        },
+        {
+          "typeId": "bouncy",
+          "weight": 0.08
+        }
+      ]
+    },
+    {
+      "fromIndex": 101,
+      "toIndex": 200,
+      "weights": [
+        {
+          "typeId": "normal",
+          "weight": 0.88
+        },
+        {
+          "typeId": "ice",
+          "weight": 0.06
+        },
+        {
+          "typeId": "bouncy",
+          "weight": 0.06
+        }
+      ]
+    },
+    {
+      "fromIndex": 201,
+      "toIndex": 400,
+      "weights": [
+        {
+          "typeId": "normal",
+          "weight": 0.85
+        },
+        {
+          "typeId": "ice",
+          "weight": 0.09
+        },
+        {
+          "typeId": "bouncy",
+          "weight": 0.06
+        }
+      ]
+    }
+  ]
+}

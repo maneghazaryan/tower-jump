@@ -1,0 +1,144 @@
+{
+  "schemaVersion": 2,
+  "id": "tower_03",
+  "displayName": "Sunken Vault",
+  "seed": 480315,
+  "totalPlatformCount": 320,
+  "towerHalfWidth": 4.2,
+  "startHeight": -3.0,
+  "fullWidthInterval": 50,
+  "skinMilestoneInterval": 100,
+  "completionReward": 450,
+  "milestoneReward": 45,
+  "environment": {
+    "backgroundSpriteId": "background_verdigris",
+    "wallLeftSpriteId": "wall_left_verdigris",
+    "wallRightSpriteId": "wall_right_verdigris"
+  },
+  "spacing": {
+    "minGap": 1.44,
+    "maxGap": 1.52,
+    "gapByHeight": [
+      {
+        "fromIndex": 1,
+        "toIndex": 320,
+        "minGap": 1.44,
+        "maxGap": 1.52
+      }
+    ]
+  },
+  "widthByHeight": [
+    {
+      "fromIndex": 1,
+      "toIndex": 40,
+      "minWidth": 3.68,
+      "maxWidth": 4.83
+    },
+    {
+      "fromIndex": 41,
+      "toIndex": 120,
+      "minWidth": 2.99,
+      "maxWidth": 4.14
+    },
+    {
+      "fromIndex": 121,
+      "toIndex": 230,
+      "minWidth": 2.3,
+      "maxWidth": 3.33
+    },
+    {
+      "fromIndex": 231,
+      "toIndex": 320,
+      "minWidth": 1.84,
+      "maxWidth": 2.76
+    }
+  ],
+  "spriteSetsByHeight": [
+    {
+      "fromIndex": 1,
+      "toIndex": 100,
+      "spriteSetId": "verdigris"
+    },
+    {
+      "fromIndex": 101,
+      "toIndex": 200,
+      "spriteSetId": "moss"
+    },
+    {
+      "fromIndex": 201,
+      "toIndex": 320,
+      "spriteSetId": "obsidian"
+    }
+  ],
+  "scrollSpeedByHeight": [
+    {
+      "fromIndex": 1,
+      "toIndex": 20,
+      "unitsPerSecond": 0.0
+    },
+    {
+      "fromIndex": 21,
+      "toIndex": 70,
+      "unitsPerSecond": 0.69
+    },
+    {
+      "fromIndex": 71,
+      "toIndex": 150,
+      "unitsPerSecond": 1.19
+    },
+    {
+      "fromIndex": 151,
+      "toIndex": 240,
+      "unitsPerSecond": 1.75
+    },
+    {
+      "fromIndex": 241,
+      "toIndex": 320,
+      "unitsPerSecond": 2.38
+    }
+  ],
+  "platformTypesByHeight": [
+    {
+      "fromIndex": 1,
+      "toIndex": 20,
+      "weights": [
+        {
+          "typeId": "normal",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "fromIndex": 21,
+      "toIndex": 140,
+      "weights": [
+        {
+          "typeId": "normal",
+          "weight": 0.9
+        },
+        {
+          "typeId": "bouncy",
+          "weight": 0.1
+        }
+      ]
+    },
+    {
+      "fromIndex": 141,
+      "toIndex": 320,
+      "weights": [
+        {
+          "typeId": "normal",
+          "weight": 0.84
+        },
+        {
+          "typeId": "ice",
+          "weight": 0.08
+        },
+        {
+          "typeId": "bouncy",
+          "weight": 0.08
+        }
+      ]
+    }
+  ]
+}

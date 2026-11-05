@@ -1,0 +1,6 @@
+{
+  "schemaVersion": 1,
+  "startingCoins": 50,
+  "continueCosts": [10, 20, 50],
+  "costGrowthBeyondList": 2.0
+}

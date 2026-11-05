@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 7,
+  "movement": {
+    "maxSpeed": 10.5,
+    "acceleration": 26.0,
+    "deceleration": 35.0,
+    "airControlMultiplier": 0.65,
+    "jumpBaseSpeed": 12.9,
+    "jumpSpeedBonus": 11.0,
+    "jumpSpeedCurveExponent": 1.35,
+    "gravityScale": 4.5,
+    "fallGravityMultiplier": 1.35,
+    "maxFallSpeed": 30.0,
+    "coyoteTime": 0.12,
+    "jumpBufferTime": 0.15,
+    "jumpCutMultiplier": 0.5,
+    "groundOverspeedDecay": 40.0,
+    "jumpChargeDuration": 0.6,
+    "standStillGrace": 0.25,
+    "standStillSpeedThreshold": 0.4
+  },
+  "wallBounce": {
+    "speedMultiplier": 0.82,
+    "speedBonus": 1.0,
+    "maxBounceSpeed": 21.0,
+    "minimumBounceSpeed": 1.5,
+    "ascendingVerticalBonus": 3.2,
+    "ascendingJumpBonus": 2.0,
+    "jumpBonusDuration": 1.2,
+    "fallingVelocityThreshold": -1.0,
+    "ascendingVelocityThreshold": 0.5,
+    "controlBlendTime": 0.18,
+    "saltoDuration": 0.45,
+    "verticalTransfer": 0.45,
+    "maxVerticalBoost": 10.5
+  },
+  "camera": {
+    "orthographicSize": 7.0,
+    "verticalOffset": 2.0,
+    "smoothTime": 0.12,
+    "maxFollowLag": 0.9
+  },
+  "run": {
+    "deathZoneOffset": 2.0,
+    "deathZoneHeight": 26.0,
+    "continueSpawnOffset": 0.72,
+    "continueSafetyPlatforms": 3
+  },
+  "streaming": {
+    "spawnAheadDistance": 12.0,
+    "despawnBelowDistance": 1.0,
+    "disappearDuration": 0.55,
+    "platformPoolPrewarm": 32
+  },
+  "controls": {
+    "touchMode": "always",
+    "minPadSize": 150.0,
+    "maxPadSize": 260.0,
+    "edgeMargin": 46.0,
+    "opacity": 0.55
+  },
+  "collapse": {
+    "shakeLeadDistance": 3.9,
+    "shakeDuration": 0.85,
+    "shakeAmplitude": 0.07,
+    "shakeFrequency": 13.0,
+    "fallDuration": 1.6,
+    "fallAcceleration": 11.0,
+    "fallDrift": 0.9,
+    "fallSpin": 55.0,
+    "fadeStartFraction": 0.65,
+    "maxDistanceBelowView": 32.0,
+    "startDropDistance": 6.5
+  },
+  "platforms": {
+    "thickness": 0.26,
+    "oneWay": true,
+    "restingTolerance": 0.08
+  },
+  "platformTypes": [
+    {
+      "typeId": "normal",
+      "spriteVariant": "",
+      "tintHex": "",
+      "launchSpeed": 0.0,
+      "accelerationMultiplier": 1.0,
+      "decelerationMultiplier": 1.6,
+      "maxSpeedMultiplier": 1.0,
+      "landingSpeedRetention": 0.0
+    },
+    {
+      "typeId": "bouncy",
+      "spriteVariant": "platform_bouncy",
+      "tintHex": "",
+      "launchSpeed": 17.0,
+      "accelerationMultiplier": 1.0,
+      "decelerationMultiplier": 1.0,
+      "maxSpeedMultiplier": 1.0,
+      "landingSpeedRetention": 0.5
+    },
+    {
+      "typeId": "ice",
+      "spriteVariant": "",
+      "tintHex": "#9FDFFF",
+      "launchSpeed": 0.0,
+      "accelerationMultiplier": 0.35,
+      "decelerationMultiplier": 0.12,
+      "maxSpeedMultiplier": 1.1,
+      "landingSpeedRetention": 0.92
+    }
+  ]
+}

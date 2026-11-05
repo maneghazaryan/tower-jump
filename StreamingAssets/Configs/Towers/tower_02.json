@@ -1,0 +1,154 @@
+{
+  "schemaVersion": 2,
+  "id": "tower_02",
+  "displayName": "Ember Shaft",
+  "seed": 5150321,
+  "totalPlatformCount": 300,
+  "towerHalfWidth": 3.6,
+  "startHeight": -3.0,
+  "fullWidthInterval": 100,
+  "skinMilestoneInterval": 100,
+  "completionReward": 500,
+  "milestoneReward": 50,
+  "environment": {
+    "backgroundSpriteId": "background_ember",
+    "wallLeftSpriteId": "wall_left_ember",
+    "wallRightSpriteId": "wall_right_ember"
+  },
+  "spacing": {
+    "minGap": 1.44,
+    "maxGap": 1.52,
+    "gapByHeight": [
+      {
+        "fromIndex": 1,
+        "toIndex": 100,
+        "minGap": 1.44,
+        "maxGap": 1.52
+      },
+      {
+        "fromIndex": 101,
+        "toIndex": 200,
+        "minGap": 1.44,
+        "maxGap": 1.52
+      },
+      {
+        "fromIndex": 201,
+        "toIndex": 300,
+        "minGap": 1.44,
+        "maxGap": 1.52
+      }
+    ]
+  },
+  "widthByHeight": [
+    {
+      "fromIndex": 1,
+      "toIndex": 40,
+      "minWidth": 2.99,
+      "maxWidth": 3.91
+    },
+    {
+      "fromIndex": 41,
+      "toIndex": 150,
+      "minWidth": 2.3,
+      "maxWidth": 3.22
+    },
+    {
+      "fromIndex": 151,
+      "toIndex": 300,
+      "minWidth": 1.49,
+      "maxWidth": 2.42
+    }
+  ],
+  "spriteSetsByHeight": [
+    {
+      "fromIndex": 1,
+      "toIndex": 100,
+      "spriteSetId": "ember"
+    },
+    {
+      "fromIndex": 101,
+      "toIndex": 200,
+      "spriteSetId": "rust"
+    },
+    {
+      "fromIndex": 201,
+      "toIndex": 300,
+      "spriteSetId": "obsidian"
+    }
+  ],
+  "scrollSpeedByHeight": [
+    {
+      "fromIndex": 1,
+      "toIndex": 15,
+      "unitsPerSecond": 0.0
+    },
+    {
+      "fromIndex": 16,
+      "toIndex": 60,
+      "unitsPerSecond": 1.12
+    },
+    {
+      "fromIndex": 61,
+      "toIndex": 150,
+      "unitsPerSecond": 1.88
+    },
+    {
+      "fromIndex": 151,
+      "toIndex": 230,
+      "unitsPerSecond": 2.62
+    },
+    {
+      "fromIndex": 231,
+      "toIndex": 300,
+      "unitsPerSecond": 3.25
+    }
+  ],
+  "platformTypesByHeight": [
+    {
+      "fromIndex": 1,
+      "toIndex": 15,
+      "weights": [
+        {
+          "typeId": "normal",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "fromIndex": 16,
+      "toIndex": 120,
+      "weights": [
+        {
+          "typeId": "normal",
+          "weight": 0.9
+        },
+        {
+          "typeId": "ice",
+          "weight": 0.02
+        },
+        {
+          "typeId": "bouncy",
+          "weight": 0.08
+        }
+      ]
+    },
+    {
+      "fromIndex": 121,
+      "toIndex": 300,
+      "weights": [
+        {
+          "typeId": "normal",
+          "weight": 0.86
+        },
+        {
+          "typeId": "ice",
+          "weight": 0.04
+        },
+        {
+          "typeId": "bouncy",
+          "weight": 0.1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "towers": [
+    {
+      "id": "tower_00",
+      "displayName": "Stone Ascent",
+      "description": "400 floors. Moss, stone, sand and obsidian as you climb."
+    },
+    {
+      "id": "tower_01",
+      "displayName": "Frozen Spire",
+      "description": "250 floors of ice. Slippery, and it never lets up."
+    },
+    {
+      "id": "tower_02",
+      "displayName": "Ember Shaft",
+      "description": "300 floors. Narrow, fast, and full of trampolines."
+    },
+    {
+      "id": "tower_03",
+      "displayName": "Sunken Vault",
+      "description": "320 floors of flooded copper. Verdigris, moss, then obsidian dark."
+    },
+    {
+      "id": "tower_04",
+      "displayName": "Bone Cathedral",
+      "description": "350 floors of pale stone. Tall, narrow, and it does not slow down."
+    },
+    {
+      "id": "tower_05",
+      "displayName": "Void Spire",
+      "description": "500 floors in the dark. The longest climb in the game."
+    }
+  ]
+}

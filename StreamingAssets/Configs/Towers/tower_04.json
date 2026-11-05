@@ -1,0 +1,144 @@
+{
+  "schemaVersion": 2,
+  "id": "tower_04",
+  "displayName": "Bone Cathedral",
+  "seed": 662947,
+  "totalPlatformCount": 350,
+  "towerHalfWidth": 3.8,
+  "startHeight": -3.0,
+  "fullWidthInterval": 50,
+  "skinMilestoneInterval": 100,
+  "completionReward": 550,
+  "milestoneReward": 50,
+  "environment": {
+    "backgroundSpriteId": "background_bone",
+    "wallLeftSpriteId": "wall_left_bone",
+    "wallRightSpriteId": "wall_right_bone"
+  },
+  "spacing": {
+    "minGap": 1.44,
+    "maxGap": 1.52,
+    "gapByHeight": [
+      {
+        "fromIndex": 1,
+        "toIndex": 350,
+        "minGap": 1.44,
+        "maxGap": 1.52
+      }
+    ]
+  },
+  "widthByHeight": [
+    {
+      "fromIndex": 1,
+      "toIndex": 35,
+      "minWidth": 3.45,
+      "maxWidth": 4.6
+    },
+    {
+      "fromIndex": 36,
+      "toIndex": 120,
+      "minWidth": 2.76,
+      "maxWidth": 3.79
+    },
+    {
+      "fromIndex": 121,
+      "toIndex": 240,
+      "minWidth": 2.18,
+      "maxWidth": 3.1
+    },
+    {
+      "fromIndex": 241,
+      "toIndex": 350,
+      "minWidth": 1.72,
+      "maxWidth": 2.53
+    }
+  ],
+  "spriteSetsByHeight": [
+    {
+      "fromIndex": 1,
+      "toIndex": 100,
+      "spriteSetId": "bone"
+    },
+    {
+      "fromIndex": 101,
+      "toIndex": 200,
+      "spriteSetId": "sand"
+    },
+    {
+      "fromIndex": 201,
+      "toIndex": 350,
+      "spriteSetId": "crystal"
+    }
+  ],
+  "scrollSpeedByHeight": [
+    {
+      "fromIndex": 1,
+      "toIndex": 20,
+      "unitsPerSecond": 0.0
+    },
+    {
+      "fromIndex": 21,
+      "toIndex": 60,
+      "unitsPerSecond": 0.88
+    },
+    {
+      "fromIndex": 61,
+      "toIndex": 140,
+      "unitsPerSecond": 1.44
+    },
+    {
+      "fromIndex": 141,
+      "toIndex": 250,
+      "unitsPerSecond": 2.12
+    },
+    {
+      "fromIndex": 251,
+      "toIndex": 350,
+      "unitsPerSecond": 2.75
+    }
+  ],
+  "platformTypesByHeight": [
+    {
+      "fromIndex": 1,
+      "toIndex": 20,
+      "weights": [
+        {
+          "typeId": "normal",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "fromIndex": 21,
+      "toIndex": 130,
+      "weights": [
+        {
+          "typeId": "normal",
+          "weight": 0.88
+        },
+        {
+          "typeId": "bouncy",
+          "weight": 0.12
+        }
+      ]
+    },
+    {
+      "fromIndex": 131,
+      "toIndex": 350,
+      "weights": [
+        {
+          "typeId": "normal",
+          "weight": 0.82
+        },
+        {
+          "typeId": "ice",
+          "weight": 0.1
+        },
+        {
+          "typeId": "bouncy",
+          "weight": 0.08
+        }
+      ]
+    }
+  ]
+}

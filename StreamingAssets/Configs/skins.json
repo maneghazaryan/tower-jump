@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 2,
+  "defaultSkinId": "default",
+  "skins": [
+    {
+      "id": "default",
+      "displayName": "Rookie",
+      "description": "Balanced. Nothing to learn, nothing to fight.",
+      "unlockCost": 0,
+      "spriteSetId": "player_default",
+      "maxSpeedMultiplier": 1.0,
+      "accelerationMultiplier": 1.0,
+      "jumpMultiplier": 1.0,
+      "bounceMultiplier": 1.0,
+      "airControlMultiplier": 1.0
+    },
+    {
+      "id": "speedster",
+      "displayName": "Speedster",
+      "description": "Quick to top speed, lighter on the jump.",
+      "unlockCost": 150,
+      "spriteSetId": "player_speedster",
+      "maxSpeedMultiplier": 1.25,
+      "accelerationMultiplier": 1.4,
+      "jumpMultiplier": 0.9,
+      "bounceMultiplier": 1.15,
+      "airControlMultiplier": 0.85
+    },
+    {
+      "id": "ninja",
+      "displayName": "Ninja",
+      "description": "Nimble in the air and hard off the walls.",
+      "unlockCost": 250,
+      "spriteSetId": "player_ninja",
+      "maxSpeedMultiplier": 1.05,
+      "accelerationMultiplier": 1.15,
+      "jumpMultiplier": 1.1,
+      "bounceMultiplier": 1.25,
+      "airControlMultiplier": 1.2
+    },
+    {
+      "id": "astro",
+      "displayName": "Astronaut",
+      "description": "Slow to move, but it floats and it jumps.",
+      "unlockCost": 400,
+      "spriteSetId": "player_astro",
+      "maxSpeedMultiplier": 0.9,
+      "accelerationMultiplier": 0.85,
+      "jumpMultiplier": 1.3,
+      "bounceMultiplier": 0.95,
+      "airControlMultiplier": 1.35
+    },
+    {
+      "id": "knight",
+      "displayName": "Knight",
+      "description": "Heavy and deliberate, with a big jump.",
+      "unlockCost": 350,
+      "spriteSetId": "player_knight",
+      "maxSpeedMultiplier": 0.92,
+      "accelerationMultiplier": 0.8,
+      "jumpMultiplier": 1.22,
+      "bounceMultiplier": 1.05,
+      "airControlMultiplier": 0.9
+    },
+    {
+      "id": "phantom",
+      "displayName": "Phantom",
+      "description": "Fast hands, fierce walls, shorter hops.",
+      "unlockCost": 600,
+      "spriteSetId": "player_phantom",
+      "maxSpeedMultiplier": 1.12,
+      "accelerationMultiplier": 1.3,
+      "jumpMultiplier": 0.95,
+      "bounceMultiplier": 1.3,
+      "airControlMultiplier": 1.25
+    },
+    {
+      "id": "diver",
+      "displayName": "Diver",
+      "description": "Steady all round, a little stronger upward.",
+      "unlockCost": 300,
+      "spriteSetId": "player_diver",
+      "maxSpeedMultiplier": 1.0,
+      "accelerationMultiplier": 1.05,
+      "jumpMultiplier": 1.08,
+      "bounceMultiplier": 0.9,
+      "airControlMultiplier": 1.15
+    }
+  ]
+}
