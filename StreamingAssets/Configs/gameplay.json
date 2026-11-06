@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 7,
+  "schemaVersion": 8,
   "movement": {
     "maxSpeed": 10.5,
     "acceleration": 26.0,
@@ -58,6 +58,10 @@
     "maxPadSize": 260.0,
     "edgeMargin": 46.0,
     "opacity": 0.55
+  },
+  "combo": {
+    "minimumFloors": 2,
+    "window": 3.0
   },
   "collapse": {
     "shakeLeadDistance": 3.9,
