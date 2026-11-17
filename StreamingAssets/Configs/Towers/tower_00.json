@@ -8,8 +8,8 @@
   "startHeight": -3.0,
   "fullWidthInterval": 100,
   "skinMilestoneInterval": 100,
-  "completionReward": 250,
-  "milestoneReward": 25,
+  "completionReward": 150,
+  "milestoneReward": 20,
   "environment": {
     "backgroundSpriteId": "background",
     "wallLeftSpriteId": "wall_left",

@@ -9,7 +9,7 @@
       "weight": 0.9,
       "fromFloor": 0,
       "toFloor": 0,
-      "coinReward": 5,
+      "coinReward": 3,
       "liftFloors": 0,
       "liftSpeed": 0.0
     },

@@ -8,8 +8,8 @@
   "startHeight": -3.0,
   "fullWidthInterval": 100,
   "skinMilestoneInterval": 100,
-  "completionReward": 500,
-  "milestoneReward": 50,
+  "completionReward": 275,
+  "milestoneReward": 20,
   "environment": {
     "backgroundSpriteId": "background_ember",
     "wallLeftSpriteId": "wall_left_ember",

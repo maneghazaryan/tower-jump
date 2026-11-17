@@ -8,8 +8,8 @@
   "startHeight": -3.0,
   "fullWidthInterval": 50,
   "skinMilestoneInterval": 100,
-  "completionReward": 450,
-  "milestoneReward": 45,
+  "completionReward": 250,
+  "milestoneReward": 10,
   "environment": {
     "backgroundSpriteId": "background_verdigris",
     "wallLeftSpriteId": "wall_left_verdigris",

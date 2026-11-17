@@ -127,7 +127,7 @@
       <code id="error-detail"></code>
     </div>
 
-    <script src="Build/webgl.loader.js"></script>
+    <script src="Build/webgl-out.loader.js"></script>
     <script>
       var canvas = document.querySelector("#unity-canvas");
       var loader = document.querySelector("#loader");
@@ -154,13 +154,13 @@
 
       createUnityInstance(canvas, {
         arguments: [],
-        dataUrl: "Build/webgl.data.unityweb",
-        frameworkUrl: "Build/webgl.framework.js.unityweb",
-        codeUrl: "Build/webgl.wasm.unityweb",
+        dataUrl: "Build/webgl-out.data.unityweb",
+        frameworkUrl: "Build/webgl-out.framework.js.unityweb",
+        codeUrl: "Build/webgl-out.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Mog",
         productName: "TowerJumpGame",
-        productVersion: "1.0",
+        productVersion: "1.0.1",
         matchWebGLToCanvasSize: false,
       }, function (progress) {
         fill.style.width = (progress * 100).toFixed(0) + "%";
